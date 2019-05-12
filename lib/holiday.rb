@@ -99,9 +99,7 @@ def all_supplies_in_holidays(holiday_hash)
           day.each do |array, item|
             puts "#{item}"
           end
-        end
       end
-    end
   end
 end
 
