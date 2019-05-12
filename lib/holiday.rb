@@ -95,7 +95,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, holiday|
     puts "#{season}:"
       holiday.each do |day, array|
-        puts "#{day}: " + array.join(", ")
+        puts "  #{day}: " + array.join(", ")
       end
   end
 end
